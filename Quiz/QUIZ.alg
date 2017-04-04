@@ -1,16 +1,9 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor    : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 24/03/2017
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome,start,resp,gameon,maiornome:caractere
    pontos,maior:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
    gameon <- "s"
 
    enquanto (gameon = "s") ou (gameon = "sim") faca
@@ -23,18 +16,18 @@ Inicio
       escreva ("Nome do Jogador: ")
       leia (nome)
       escreval ("")
-      escreval ("Níveis: Pontos necessários para cada nível")
-      escreval ("*FÁCIL: N/A")
-      escreval ("*MÉDIO: 400pts")
-      escreval ("*DIFÍCIL: 1000pts")
+      escreval ("NÃ­veis: Pontos necessÃ¡rios para cada nÃ­vel")
+      escreval ("*FÃCIL: N/A")
+      escreval ("*MÃ‰DIO: 400pts")
+      escreval ("*DIFÃCIL: 1000pts")
       escreval ("*100pts por acerto")
       escreval ("")
-      escreva ("Aperte ENTER para começar!")
+      escreva ("Aperte ENTER para comeÃ§ar!")
       leia(start)
       limpatela
       se(start = "") entao
-         escreval ("FÁCIL - 1ª Pergunta")
-         escreval ("Quem é o criador da saga Star Wars?")
+         escreval ("FÃCIL - 1Âª Pergunta")
+         escreval ("Quem Ã© o criador da saga Star Wars?")
          escreval ("A - Samuel L. Jackson")
          escreval ("B - George Lucas")
          escreval ("C - Steve Jobs")
@@ -55,10 +48,10 @@ Inicio
          timer 0
          limpatela
          escreval ("")
-         escreval ("FÁCIL - 2ª Pergunta")
-         escreval ("Qual a arma que é usada pelos jedi:")
+         escreval ("FÃCIL - 2Âª Pergunta")
+         escreval ("Qual a arma que Ã© usada pelos jedi:")
          escreval ("A - Arma de Laser")
-         escreval ("B - A Força")
+         escreval ("B - A ForÃ§a")
          escreval ("C - Sabre de Luz")
          escreval ("D - AK47")
          escreva ("Resposta: ")
@@ -77,8 +70,8 @@ Inicio
          timer 0
          limpatela
          escreval ("")
-         escreval ("FÁCIL - 3ª Pergunta")
-         escreval ("Em Cavaleiros do Zodíaco, existem quantas casas?")
+         escreval ("FÃCIL - 3Âª Pergunta")
+         escreval ("Em Cavaleiros do ZodÃ­aco, existem quantas casas?")
          escreval ("A - 12")
          escreval ("B - 10")
          escreval ("C - 7")
@@ -98,7 +91,7 @@ Inicio
          timer 0
          limpatela
          escreval ("")
-         escreval ("FÁCIL - 4ª Pergunta")
+         escreval ("FÃCIL - 4Âª Pergunta")
          escreval ("Quantos filmes tem a Saga Star Wars atualmente?")
          escreval ("A - 7 Filmes")
          escreval ("B - 8 Filmes")
@@ -119,7 +112,7 @@ Inicio
          timer 0
          limpatela
          escreval ("")
-         escreval ("FÁCIL - 5ª Pergunta")
+         escreval ("FÃCIL - 5Âª Pergunta")
          escreval ("O que significa Star Wars?")
          escreval ("A - Batalha nas Estrelas")
          escreval ("B - Estrelas em Guerra")
@@ -140,7 +133,7 @@ Inicio
          timer 0
          limpatela
          escreval ("")
-         escreval ("FÁCIL - 6ª Pergunta")
+         escreval ("FÃCIL - 6Âª Pergunta")
          escreval ("Qual o personagem principal do DragonBall")
          escreval ("A - Freeza")
          escreval ("B - Gohan")
@@ -161,12 +154,12 @@ Inicio
          escreva ("")
          timer 0
          limpatela
-         escreval ("FÁCIL - 7ª Pergunta")
-         escreval ("Qual é o maior continente do mundo?")
+         escreval ("FÃCIL - 7Âª Pergunta")
+         escreval ("Qual Ã© o maior continente do mundo?")
          escreval ("A - Europa")
          escreval ("B - Africa")
          escreval ("C - America do Sul")
-         escreval ("D - Ásia")
+         escreval ("D - Ãsia")
          escreva ("Resposta: ")
          leia(resp)
          se (resp = "d") entao
@@ -185,18 +178,18 @@ Inicio
          timer (0)
          se (pontos > 400) entao
             limpatela
-            escreval ("PARABÉNS, VOCÊ PROSSEGUIU PARA A PROXIMA FASE!")
-            ESCREVAL ("Agora vão ser perguntas de nivel MÉDIO!")
+            escreval ("PARABÃ‰NS, VOCÃŠ PROSSEGUIU PARA A PROXIMA FASE!")
+            ESCREVAL ("Agora vÃ£o ser perguntas de nivel MÃ‰DIO!")
             escreval ("")
-            escreval ("Pontuação atual: ", pontos)
+            escreval ("PontuaÃ§Ã£o atual: ", pontos)
             escreval ("")
 
-            escreval ("MÉDIO - 1ª Pergunta")
+            escreval ("MÃ‰DIO - 1Âª Pergunta")
             escreval ("Quem pintou o quadro Monalisa?")
             escreval ("A - Picasso")
             escreval ("B - Van Gogh")
             escreval ("C - Leonardo Da Vinci")
-            escreval ("D - Sócrates")
+            escreval ("D - SÃ³crates")
             escreva ("Resposta: ")
             leia(resp)
             se (resp = "c") entao
@@ -212,9 +205,9 @@ Inicio
             timer 0
             limpatela
             escreval ("")
-            escreval ("MÉDIO - 2ª Pergunta")
-            escreval ("Qual planeta é famoso pelos seus anéis?")
-            escreval ("A - Plutão")
+            escreval ("MÃ‰DIO - 2Âª Pergunta")
+            escreval ("Qual planeta Ã© famoso pelos seus anÃ©is?")
+            escreval ("A - PlutÃ£o")
             escreval ("B - Saturno")
             escreval ("C - Urano")
             escreval ("D - Marte")
@@ -233,7 +226,7 @@ Inicio
             timer 0
             limpatela
             escreval ("")
-            escreval ("MÉDIO - 3ª Pergunta")
+            escreval ("MÃ‰DIO - 3Âª Pergunta")
             escreval ("Quais a letras usadas no sistema romano?")
             escreval ("A - I,V,M,D,C,L e X")
             escreval ("B - I,V,X,L,C,D e M")
@@ -254,7 +247,7 @@ Inicio
             timer 0
             limpatela
             escreval ("")
-            escreval ("MÉDIO - 4ª Pergunta")
+            escreval ("MÃ‰DIO - 4Âª Pergunta")
             escreval ("Quantos anos tem o apresentador Silvio Santos?")
             escreval ("A - 92 anos")
             ESCREVAL ("B - 89 anos")
@@ -275,8 +268,8 @@ Inicio
             timer 0
             limpatela
             escreval ("")
-            escreval ("MÉDIO - 5ª Pergunta")
-            escreval ("Quanto é metade de dois mais um?")
+            escreval ("MÃ‰DIO - 5Âª Pergunta")
+            escreval ("Quanto Ã© metade de dois mais um?")
             escreval ("A - 1")
             ESCREVAL ("B - 3")
             escreval ("C - 1,5")
@@ -296,7 +289,7 @@ Inicio
             timer 0
             limpatela
             escreval ("")
-            escreval ("MÉDIO - 6ª Pergunta")
+            escreval ("MÃ‰DIO - 6Âª Pergunta")
             escreval ("Qual a capital da Alemanha?")
             escreval ("A - Luxemburgo")
             escreval ("B - Munique")
@@ -317,7 +310,7 @@ Inicio
             timer 0
             limpatela
             escreval ("")
-            escreval ("MÉDIO - 7ª Pergunta")
+            escreval ("MÃ‰DIO - 7Âª Pergunta")
             escreval ("Com qual a idade Jesus Cristo foi crucificado?")
             escreval ("A - 33 anos")
             escreval ("B - 1500 anos")
@@ -340,17 +333,17 @@ Inicio
             timer (0)
             se (pontos > 1000) entao
                limpatela
-               escreval ("PARABÉNS, VOCÊ PROSSEGUIU PARA A PROXIMA FASE!")
-               ESCREVAL ("Agora vão ser perguntas de nivel DIFICL!")
+               escreval ("PARABÃ‰NS, VOCÃŠ PROSSEGUIU PARA A PROXIMA FASE!")
+               ESCREVAL ("Agora vÃ£o ser perguntas de nivel DIFICL!")
                escreval ("")
-               escreval ("Pontuação atual: ", pontos)
+               escreval ("PontuaÃ§Ã£o atual: ", pontos)
                escreval ("")
                escreval ("QUE OS JOGOS COMECEM")
                escreval ("")
-               escreval ("DIFICIL - 1ª Pergunta")
+               escreval ("DIFICIL - 1Âª Pergunta")
                escreval ("Qual item cancela a ult do Zed?")
                escreval ("A - Cimitarra Mercurial")
-               escreval ("B - Chapéu de Rabadon")
+               escreval ("B - ChapÃ©u de Rabadon")
                escreval ("C - Cadinho de Mikael")
                escreval ("D - Nenhum")
                escreva ("Resposta: ")
@@ -368,7 +361,7 @@ Inicio
                timer 0
                limpatela
                escreval ("")
-               escreval ("DIFICIL - 2ª Pergunta")
+               escreval ("DIFICIL - 2Âª Pergunta")
                escreval ("Quem matou o Joffrey? (Game of Thrones)")
                escreval ("A - Sansa")
                escreval ("B - Tyrion")
@@ -389,8 +382,8 @@ Inicio
                timer 0
                limpatela
                escreval ("")
-               escreval ("DIFICIL - 3ª Pergunta")
-               escreval ("Em Naruto, quem é o 7º Hokage")
+               escreval ("DIFICIL - 3Âª Pergunta")
+               escreval ("Em Naruto, quem Ã© o 7Âº Hokage")
                escreval ("A - Kohonomaru")
                escreval ("B - Naruto")
                escreval ("C - Kakashi")
@@ -410,7 +403,7 @@ Inicio
                timer 0
                limpatela
                escreval ("")
-               escreval ("DIFICL - 4ª Pergunta")
+               escreval ("DIFICL - 4Âª Pergunta")
                escreval ("Qual o valor de PI")
                escreval ("A - 3.1415926")
                escreval ("B - 3.1514952")
@@ -431,8 +424,8 @@ Inicio
                timer 0
                limpatela
                escreval ("")
-               escreval ("DIFICIL - 5ª Pergunta")
-               escreval ("Quantos corações tem uma minhoca")
+               escreval ("DIFICIL - 5Âª Pergunta")
+               escreval ("Quantos coraÃ§Ãµes tem uma minhoca")
                escreval ("A - 1")
                escreval ("B - 30")
                escreval ("C - 29")
@@ -452,7 +445,7 @@ Inicio
                timer 0
                limpatela
                escreval ("")
-               escreval ("DIFICIL - 6ª Pergunta")
+               escreval ("DIFICIL - 6Âª Pergunta")
                escreval ("Quem inventou o Fusca")
                escreval ("A - Henry Ford")
                escreval ("B - Hitler")
@@ -475,14 +468,14 @@ Inicio
                timer (0)
             senao
                limpatela
-               escreval ("PONTUAÇÃO INSUFICIENTE PARA PROSSEGUIR!")
+               escreval ("PONTUAÃ‡ÃƒO INSUFICIENTE PARA PROSSEGUIR!")
                ESCREVAL ("")
             fimse
          fimse
       fimse
       escreval ("----GAME OVER----")
       escreval ("")
-      escreval ("Pontuação final de: ",nome)
+      escreval ("PontuaÃ§Ã£o final de: ",nome)
       escreval ("Pontos: ",pontos)
       escreval ("Deseja jogar novamente?")
       leia (gameon)
@@ -493,6 +486,6 @@ Inicio
       fimse
    fimenquanto
    escreval ("---------------------------------------")
-   escreval ("JOGADOR COM MAIOR PONTUAÇÃO: ",maiornome)
-   escreval ("MAIOR PONTUAÇÃO: ",maior)
+   escreval ("JOGADOR COM MAIOR PONTUAÃ‡ÃƒO: ",maiornome)
+   escreval ("MAIOR PONTUAÃ‡ÃƒO: ",maior)
 Fimalgoritmo
